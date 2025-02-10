@@ -1,0 +1,33 @@
+.navbar {
+  padding: 0.5rem;
+  background-color: #13294a;
+}
+
+/* lista de colores */
+.colores {
+  color: #ffcc00;
+  color: #13294a;
+  color: #e30000;
+  color: #dee5eb;
+  color: #ffffff;
+}
+
+@media screen and (max-width: 767px){
+  .navbar-brand{
+  display: none;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  .banner-principal {
+    max-width: 2000px;
+  }
+  
+}
+    
+@media screen and (min-width: 700px) {
+  .hero-inferior-imagen {
+    max-width: 600px;
+  }
+  
+}
