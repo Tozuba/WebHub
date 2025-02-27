@@ -1,0 +1,363 @@
+html {
+  font-size: 15px;
+}
+
+/* Barra de navegacion */
+.navbar {
+  padding: 0.5rem;
+  background-color: hsl(216, 59%, 18%);
+  font-size: 1.2rem;
+}
+
+.navbar-social {
+  font-size: 2.2rem;
+}
+/* .seccion-base {
+  clip-path: inset(20% 0% 30% 0%);
+  object-fit: contain;
+} */
+
+.sin-margen {
+  margin-left: 0px;
+  margin-right: 0px;
+  padding: 0px;
+}
+
+.fondo-azul {
+  background-color: #13294a;
+}
+
+.columna {
+  padding: 0.3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+/* Novedades */
+
+.novedades h1 {
+  font-size: 5rem;
+  height: fit-content;
+}
+
+
+/* Estilos de Secciones */
+
+.seccion-blanca {
+  background-color: #ffffff;
+}
+
+.seccion-oscura {
+  background-color: #13294a;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: "Lexend", serif;
+}
+
+/* Divicion y cuenta regresiva */
+
+.div-rojo {
+  position: relative;
+  width: 100%;
+  background-color:  #13294a;
+  background: linear-gradient(black, #13294a );
+  height: 20rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 20rem;
+
+}
+
+/* reloj */
+.contenedor-reloj {
+  background-color: black;
+  color: white;
+
+  color: #13294a;
+  background: linear-gradient(#dee5eb,white, gray );
+  border: 1px solid gray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin: 0rem;
+  width: 20rem;
+  text-align: center;
+  box-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.2); /* Sombra */
+  border-radius: 10%;
+}
+
+.texto-reloj {
+  font-family: "Dangrek", serif;
+  font-size: 3rem;
+  line-height: 1;
+}
+
+.numero-reloj {
+  font-size: 10rem;
+  font-weight: bold;
+}
+
+
+/* lista de colores */
+.colores {
+  color: #ffcc00;
+  color: #13294a;
+  color: #e30000;
+  color: #dee5eb;
+  color: #ffffff;
+}
+
+/* Pie de paguina (footer) */
+.barrido-final {
+  background: linear-gradient(#13294a, black);
+}
+
+footer {
+  min-height: 33rem;
+}
+
+.footer-logo {
+  height: 5.3rem;
+  width: 5.3rem;
+  margin: 6.6rem;
+}
+
+.footer-texto {
+  font-size: 1.5rem;
+  padding: 1.3rem;
+  margin-bottom: 2rem;
+  font-family: "Quicksand", serif;
+}
+
+.iconos-redes-sociales a {
+  width: 3.3rem;
+  height: 3.3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.13rem;
+  margin: 0.66rem;
+  border: 0.13rem solid white;
+  border-radius: 50%;
+  transition: all 0.2s ease-in;
+}
+
+.iconos-redes-sociales i {
+  color: white;
+  font-size: 1.5rem;
+  transition: all 0.2s ease-in;
+}
+
+.iconos-redes-sociales a:hover {
+  background-color: white;
+  border: 0.13rem solid rgb(13, 110, 253);
+}
+
+.iconos-redes-sociales a:hover i {
+  color: black;
+}
+
+.derechos-de-autor {
+  font-size: 1rem;
+  color: #aeaeae;
+  padding: 1.33rem;
+}
+
+/* boton whatsapp */
+
+.boton-whats{
+  position: fixed;
+  height: 3.33rem;
+  width: 3.33rem;
+  font-size: 2rem;
+  border-radius: 50%;
+  color: white;
+  background-color: #25d366;
+  bottom: 1.33rem;
+  right: 1.33rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0.3rem 0.6rem rgba(0, 0, 0, 0.2); /* Sombra */
+  cursor: pointer; /* Cambia el cursor al pasar el mouse */
+  transition: background-color 0.3s ease; /* Transición suave */
+}
+
+.boton-whats:hover {
+  background-color: #0056b3; /* Cambia el color al pasar el mouse */
+}
+
+/* Laptop XL */
+
+@media screen and (max-width: 2559px){
+  html {
+    font-size: 15px;
+  }
+}
+
+/* Laptop L */
+
+@media screen and (max-width: 1439px){
+  html {
+    font-size: 14px;
+  }
+}
+
+/* Laptop M */
+
+@media screen and (max-width: 1200px){
+  html {
+    font-size: 13px;
+  }
+}
+
+/* Laptop S */
+
+@media screen and (max-width: 1023px){
+  html {
+    font-size: 11px;
+  }
+
+  .div-rojo {
+    height: 15rem;
+    padding-bottom: 15rem;
+  }
+
+  .contenedor-reloj {
+    width: 18rem;
+  }
+  
+  .texto-reloj {
+    font-size: 2.7rem;
+  }
+  
+  .numero-reloj {
+    font-size: 8.7rem;
+  }
+}
+
+/* Tableta */
+
+@media screen and (max-width: 767px){
+  html {
+    font-size: 13px;
+  }
+
+  .navbar-brand{
+    display: none;
+  }
+
+  .div-rojo {
+    height: 10rem;
+    padding-bottom: 10rem;
+  }
+
+  .contenedor-reloj {
+    width: 9rem;
+  }
+  
+  .texto-reloj {
+    font-size: 1.5rem;
+  }
+  
+  .numero-reloj {
+    font-size: 5rem;
+  }
+}
+
+/* Mobile L */
+
+@media screen and (max-width: 530px){
+  html {
+    font-size: 13px;
+  }
+
+  .div-rojo {
+    height: 7rem;
+    padding-bottom: 7rem;
+  }
+
+  .contenedor-reloj {
+    width: 6.5rem;
+  }
+  
+  .texto-reloj {
+    font-size: 1rem;
+  }
+  
+  .numero-reloj {
+    font-size: 3rem;
+  }
+
+  .novedades h1 {
+    font-size: 2rem;
+  }
+}
+
+/* Mobile M */
+
+@media screen and (max-width: 374px){
+  html {
+    font-size: 13px;
+  }
+
+  .div-rojo {
+    height: 5.5rem;
+    padding-bottom: 5.5rem;
+  }
+
+  .contenedor-reloj {
+    width: 6rem;
+  }
+  
+  .texto-reloj {
+    font-size: 1rem;
+  }
+  
+  .numero-reloj {
+    font-size: 2.5rem;
+  }
+
+  .novedades h1 {
+    font-size: 2rem;
+  }
+}
+
+/* Mobile S */
+
+@media screen and (max-width: 319px){
+  html {
+    font-size: 13px;
+  }
+
+  .div-rojo {
+    height: 5rem;
+    padding-bottom: 5rem;
+  }
+
+  .contenedor-reloj {
+    width: 5rem;
+  }
+  
+  .texto-reloj {
+    font-size: 1rem;
+  }
+  
+  .numero-reloj {
+    font-size: 2rem;
+  }
+
+  .novedades h1 {
+    font-size: 1.7rem;
+  }
+}
+
+
+  
