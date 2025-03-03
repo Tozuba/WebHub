@@ -35,6 +35,14 @@ html {
   justify-content: space-evenly;
 }
 
+/* clases Banner */
+.banner-horizontal{
+
+}
+
+.banner-vertical {
+
+}
 /* Novedades */
 
 .novedades h1 {
@@ -251,6 +259,10 @@ footer {
   }
 
   .navbar-brand{
+    display: none;
+  }
+
+  .banner-horizontal{
     display: none;
   }
 
