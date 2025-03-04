@@ -73,6 +73,12 @@ html {
   font-family: "Lexend", serif;
 }
 
+/* seccion encuentros */
+
+.encuentros {
+  background-color: #0056b3;
+}
+
 /* Divicion y cuenta regresiva */
 
 .div-rojo {
