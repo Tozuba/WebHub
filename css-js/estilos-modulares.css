@@ -212,7 +212,33 @@ footer {
 }
 
 .boton-whats:hover {
-  background-color: #0056b3; /* Cambia el color al pasar el mouse */
+  background-color: #41c9ff; /* Cambia el color al pasar el mouse */
+  box-shadow: 0rem 0rem 1rem white;
+}
+
+/* boton whatsapp */
+
+.boton-croquis{
+  position: fixed;
+  height: 3.33rem;
+  width: 3.33rem;
+  font-size: 2rem;
+  border-radius: 50%;
+  color: white;
+  background-color: rgb(226, 16, 16);
+  bottom: 7rem;
+  right: 1.33rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0.3rem 0.6rem rgba(0, 0, 0, 0.2); /* Sombra */
+  cursor: pointer; /* Cambia el cursor al pasar el mouse */
+  transition: background-color 0.3s ease; /* Transición suave */
+}
+
+.boton-croquis:hover {
+  background-color: #41c9ff; /* Cambia el color al pasar el mouse */
+  box-shadow: 0rem 0rem 1rem white;
 }
 
 /* Laptop XL */
@@ -297,18 +323,6 @@ footer {
   }
 
   .contenedor-reloj {
-    width: 9rem;
-  }
-  
-  .texto-reloj {
-    font-size: 1.5rem;
-  }
-  
-  .numero-reloj {
-    font-size: 5rem;
-  }
-
-  .contenedor-reloj {
     width: 18rem;
   }
   
@@ -334,15 +348,15 @@ footer {
   }
 
   .contenedor-reloj {
-    width: 6.5rem;
+    width: 9rem;
   }
   
   .texto-reloj {
-    font-size: 1rem;
+    font-size: 1.5rem;
   }
   
   .numero-reloj {
-    font-size: 3rem;
+    font-size: 5rem;
   }
 
   .novedades h1 {
@@ -408,5 +422,39 @@ footer {
   }
 }
 
+
+/* acordeon test */
+
+.accordion-button {
+  display: flex;
+  justify-content: center; /* Centra el texto del botón */
+  align-items: center;
+}
+
+.image-grid {
+  display: grid;
+  gap: 10px; /* Espacio entre imágenes */
+}
+
+/* 3 columnas en pantallas grandes */
+@media (min-width: 768px) {
+  .image-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* 1 columna en móviles */
+@media (max-width: 767.98px) {
+  .image-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.image-grid img {
+  width: 600px; /* Ancho fijo */
+  height: 200px; /* Alto fijo */
+  object-fit: cover; /* Ajusta la imagen sin distorsionar */
+  border-radius: 8px; /* Bordes redondeados */
+}
 
   
