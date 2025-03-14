@@ -1,20 +1,116 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
-  <title>Imagen con Zoom</title>
-  <link rel="stylesheet" href="./css-js/estilos-croquis.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Selector de Imágenes</title>
+  <style>
+    /* Estilos generales */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    /* Contenedor del botón y el selector */
+    .header {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 20px;
+      background-color: #f8f9fa;
+      border-bottom: 1px solid #ddd;
+    }
+
+    /* Botón de regreso */
+    .home-button {
+      background-color: #007bff;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 16px;
+      text-decoration: none;
+    }
+
+    .home-button:hover {
+      background-color: #0056b3;
+    }
+
+    /* Selector de opciones */
+    .selector {
+      display: flex;
+      gap: 10px;
+    }
+
+    .selector label {
+      display: flex;
+      align-items: center;
+      cursor: pointer;
+    }
+
+    .selector input[type="radio"] {
+      margin-right: 5px;
+    }
+
+    /* Contenedor de la imagen */
+    .image-container {
+      margin-top: 20px;
+      max-width: 100%;
+    }
+
+    .image-container img {
+      max-width: 100%;
+      height: auto;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+    }
+  </style>
 </head>
 <body>
-  <div class="container">
-    <div class="image-container">
-      <img id="zoomable-image" class="img-fluid" src="./recursos/Imagenes de prueba Web/img-haz.png" alt="Imagen con zoom">
-    </div>
-    <div class="controls">
-      <button id="zoom-in">+</button>
-      <button id="zoom-out">-</button>
-      <button id="go-back">Atrás</button>
+  <!-- Encabezado con botón y selector -->
+  <div class="header">
+    <!-- Botón de regreso a la página principal -->
+    <a href="Eventos-Deportivos.html" class="home-button">Página Principal</a>
+
+    <!-- Selector de opciones -->
+    <div class="selector">
+      <label>
+        <input type="radio" name="location" value="1" checked> Lugar 1
+      </label>
+      <label>
+        <input type="radio" name="location" value="2"> Lugar 2
+      </label>
+      <label>
+        <input type="radio" name="location" value="3"> Lugar 3
+      </label>
+      <label>
+        <input type="radio" name="location" value="4"> Lugar 4
+      </label>
     </div>
   </div>
-  <script src="./css-js/croquis-controles.js"></script>
+
+  <!-- Contenedor de la imagen -->
+  <div class="image-container">
+    <img id="croquis-image" src="./recursos/Imagenes de prueba Web/croquis-prueba-z1.png" alt="Croquis del lugar seleccionado">
+  </div>
+
+  <!-- JavaScript para cambiar la imagen -->
+  <script>
+    const radios = document.querySelectorAll('input[name="location"]');
+    const image = document.getElementById('croquis-image');
+
+    radios.forEach(radio => {
+      radio.addEventListener('change', (event) => {
+        const selectedValue = event.target.value;
+        image.src = `./recursos/Imagenes de prueba Web/croquis-prueba-z${selectedValue}.png`; // Cambia la imagen según la opción seleccionada
+      });
+    });
+  </script>
 </body>
 </html>
