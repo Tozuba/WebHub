@@ -97,11 +97,72 @@
   <!-- Boton flotante de manu -->
   <a href="#">
     <div class="boton-menu-lateral" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">
-      <i class="bi bi-list-ol"></i>
+        <i class="bi bi-geo-alt"></i>
     </div>
   </a>
 
+  <!-- Menu deslizable -->
+  <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
+    <div class="offcanvas-header">
+      <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">Menu de Cantos.</h5>
+      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body">
+      <ul>
+        <input type="radio" name="location" value="1" checked> Lugar 1
+      </ul>
+      <ul>
+        <input type="radio" name="location" value="2" checked> Lugar 2
+      </ul>
+      <ul>
+        <input type="radio" name="location" value="3" checked> Lugar 3
+      </ul>
+      <ul>
+        <input type="radio" name="location" value="4" checked> Lugar 4
+      </ul>
+      <ul>
+        <h6 data-bs-dismiss="offcanvas" name="location" value="3"><a href="#canto5"  >5.  SANTO</a></h6>
+      </ul>
+      <ul>
+        <h6 data-bs-dismiss="offcanvas"><a href="#canto6"  >6.  CORDERO</a></h6>
+      </ul>
+      <ul>
+        <h6 data-bs-dismiss="offcanvas"><a href="#canto7"  >7.  Comunión</a></h6>
+      </ul>
+      <ul>
+        <h6 data-bs-dismiss="offcanvas"><a href="#canto8"  >8.  COMUNION</a></h6>
+      </ul>
+      <ul>
+        <h6 data-bs-dismiss="offcanvas"><a href="#canto9"  >9.  SALIDA: EL JUSTO FLOCERA</a></h6>
+      </ul>
+      <ul>
+        <h6 data-bs-dismiss="offcanvas"><a href="#canto10"  >10. Liberación</a></h6>
+      </ul>
+      
+    </div>
+  </div>
 
+<section>
+  <!-- Contenedor de la imagen -->
+  <div class="image-container">
+    <img id="croquis-image" src="../recursos/Imagenes de prueba Web/croquis-prueba-z1.png" alt="Croquis del lugar seleccionado">
+  </div>
+
+  <!-- JavaScript para cambiar la imagen -->
+  <script>
+    const radios = document.querySelectorAll('input[name="location"]');
+    const image = document.getElementById('croquis-image');
+    const h6s = document.querySelectorAll('h6[name="location"]');
+
+    radios.forEach(radio => {
+      radio.addEventListener('change', (event) => {
+        const selectedValue = event.target.value;
+        image.src = `../recursos/Imagenes de prueba Web/croquis-prueba-z${selectedValue}.png`; // Cambia la imagen según la opción seleccionada
+      });
+    });
+
+  </script>
+</section>
 
 
   <!-- Pie de paguina (footer) -->
