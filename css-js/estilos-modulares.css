@@ -333,6 +333,10 @@ footer {
   .numero-reloj {
     font-size: 8.7rem;
   }
+
+  .canto{
+    padding-top: 50px;
+  }
 }
 
 /* Mobile L */

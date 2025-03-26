@@ -25,8 +25,84 @@
 
 </head>
 <body>
+  <!-- barra de Navegacion -->
+  <nav class="navbar sticky-top navbar-expand-md navbar-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="../index.html">
+        <img src="../recursos/generales/antorcha.svg" alt="Motolinia" width="50">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Ardens et Lucens </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../index.html">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Instituto</a>
+          </li>
+          <li class="nav-item dropdown ">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Eventos
+            </a>
+            <ul class="dropdown-menu dropdown-menu-dark fondo-azul">
+              <li><a class="dropdown-item" href="../Eventos-Deportivos.html">Eventos Deportivos</a></li>
+
+            </ul>
+          </li>
+          <li class="nav-item dropdown ">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Niveles educativos
+            </a>
+            <ul class="dropdown-menu dropdown-menu-dark fondo-azul">
+              <li><a class="dropdown-item" href="https://www.colegiomotoliniapr.com/Preescolar.html">PREEESCOLAR</a></li>
+              <li><a class="dropdown-item" href="https://www.colegiomotoliniapr.com/Primaria.html">PRIMARIA</a></li>
+              <li><a class="dropdown-item" href="https://www.colegiomotoliniapr.com/Secundaria.html">SECUNDARIA</a></li>
+              <li><a class="dropdown-item" href="https://www.colegiomotoliniapr.com/Bachillerato.html">BACHILLERATO</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown ">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Cordinaciones
+            </a>
+            <ul class="dropdown-menu dropdown-menu-dark fondo-azul">
+              <li><a class="dropdown-item" href="https://www.colegiomotoliniapr.com/Calidad_Academica.html">Calidad Académica</a></li>
+              <li><a class="dropdown-item" href="https://www.colegiomotoliniapr.com/Depto_Psico.html">Depto. Psicoped.</a></li>
+              <li><a class="dropdown-item" href="https://www.colegiomotoliniapr.com/Depto_Psico.html">Esc. para Padres</a></li>
+              <li><a class="dropdown-item" href="#">Coor. Prom. Institucional</a></li>
+              <li><a class="dropdown-item" href="#">Depto. Idiomas</a></li>
+              <li><a class="dropdown-item" href="#">Depto. Informática</a></li>
+              <li><a class="dropdown-item" href="#">Coor. Deportes</a></li>
+              <li><a class="dropdown-item" href="#">Formación en la FE</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#footer-contacto">Contacto</a>
+          </li>
+        </ul>
+      </div>
+      <a class="navbar-brand navbar-social" href="https://www.facebook.com/CopaMotolinia" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-facebook"></i>
+      </a>
+
+    </div>
+  </nav>
+
+
+
+  <!-- Boton flotante de manu -->
+  <a href="#">
+    <div class="boton-menu-lateral" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">
+      <i class="bi bi-list-ol"></i>
+    </div>
+  </a>
+
   <!-- Boton de menu deslizable -->
-  <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">Enable both scrolling & backdrop</button>
+  <!-- <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">Enable both scrolling & backdrop</button> -->
 
   <!-- Menu deslizable -->
   <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
@@ -35,14 +111,47 @@
     <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
   </div>
   <div class="offcanvas-body">
-    <h6 data-bs-dismiss="offcanvas"><a href="#canto1" >1.  ENTRADA: CAMINARE<br></a></h6>
-    <h6 data-bs-dismiss="offcanvas"><a href="#canto2"  >2.  PIEDAD:<br></a></h6>
+    <ul>
+      <h6 data-bs-dismiss="offcanvas"><a href="#canto1" >1.  ENTRADA: CAMINARE</a></h6>
+    </ul>
+    <ul>
+      <h6 data-bs-dismiss="offcanvas"><a href="#canto2"  >2.  PIEDAD</a></h6>
+    </ul>
+    <ul>
+      <h6 data-bs-dismiss="offcanvas"><a href="#canto3"  >3.  HONOR Y GLORIA</a></h6>
+    </ul>
+    <ul>
+      <h6 data-bs-dismiss="offcanvas"><a href="#canto4"  >4.  OFERTORIO</a></h6>
+    </ul>
+    <ul>
+      <h6 data-bs-dismiss="offcanvas"><a href="#canto5"  >5.  SANTO</a></h6>
+    </ul>
+    <ul>
+      <h6 data-bs-dismiss="offcanvas"><a href="#canto6"  >6.  CORDERO</a></h6>
+    </ul>
+    <ul>
+      <h6 data-bs-dismiss="offcanvas"><a href="#canto7"  >7.  Comunión</a></h6>
+    </ul>
+    <ul>
+      <h6 data-bs-dismiss="offcanvas"><a href="#canto8"  >8.  COMUNION</a></h6>
+    </ul>
+    <ul>
+      <h6 data-bs-dismiss="offcanvas"><a href="#canto9"  >9.  SALIDA: EL JUSTO FLOCERA</a></h6>
+    </ul>
+    <ul>
+      <h6 data-bs-dismiss="offcanvas"><a href="#canto10"  >10. Liberación</a></h6>
+    </ul>
+    
   </div>
 </div>
 
 <section class="seccion-canto">
-  <div>
-    <h2 id="canto1">ENTRADA: CAMINARE</h2>
+  <div class="titulo">
+    <h1>CANTOS</h1>
+  </div>
+
+  <div class="canto" id="canto1">
+    <h2 >ENTRADA: CAMINARE</h2>
     <p><br> 
       Caminaré en presencia del Señor,<br> 
       Caminaré en presencia del Señor.<br> 
@@ -69,11 +178,11 @@
       caída.<br>
       <br>
       Caminaré en presencia del Señor, <br>
-      Caminaré en presencia del Señor. <br></p>
+      Caminaré en presencia del Señor. </p>
   </div>
 
-  <div >
-    <h2 id="canto2">PIEDAD:</h2>
+  <div class="canto"  id="canto2">
+    <h2 >PIEDAD:</h2>
       <p><br>
       Señor ten piedad,<br>  
       Señor ten piedad.<br> 
@@ -84,13 +193,13 @@
       Señor ten piedad,<br> 
       Señor ten piedad.<br></p>
   </div>
-  <div>
+  <div class="canto" id="canto3">
     <h2> 
       HONOR Y GLORIA: <br><br></h2>
     <p>Honor y Gloria a ti Señor Jesús,<br> 
       Honor y gloria a ti Señor Jesús.<br></p>
   </div>
-  <div>
+  <div class="canto" id="canto4">
     <h2>OFERTORIO:<br></h2>
     <p> <br>
       Vino y pan en oblación, <br>
@@ -107,7 +216,7 @@
       <br>
       Amén. <br></p>
   </div>
-  <div>
+  <div class="canto" id="canto5">
     <h2>SANTO:<br></h2>
     <p> <br>
       Santo, Santo, Santo es el Señor, <br>
@@ -119,7 +228,7 @@
       Bendito el que viene en el nombre del Señor <br>
       Hosana en el cielo (2)<br> </p>
   </div>
-  <div>
+  <div class="canto" id="canto6">
     <h2>CORDERO:<br></h2>
     <p> <br>
       Cordero de Dios que quitas el pecado del <br>
@@ -131,7 +240,7 @@
       Cordero de Dios que quitas el pecado del <br>
       mundo, danos la paz, danos la paz. <br></p>
   </div>
-  <div>
+  <div class="canto" id="canto7">
     <h2>Comunión:<br>
       INCOMPARABLE (WILLIAM SÁNCHEZ)<br> </h2>
     <p><br>
@@ -146,7 +255,7 @@
       Que siendo tú el Rey <br>
       Te hayas quedado en este humilde pan.<br></p>
   </div>
-  <div>
+  <div class="canto" id="canto8">
     <h2>COMUNION:<br> 
       PAN DE VIDA (MARCO LOPEZ)<br></h2>
     <p> <br>
@@ -167,7 +276,7 @@
       Rindo mi vida en adoración. <br>
       Pan de vida.<br></p>
   </div>
-  <div>
+  <div class="canto" id="canto9">
     <h2>SALIDA: <br>
       EL JUSTO FLOCERA<br></h2>
     <p> <br>
@@ -210,7 +319,7 @@
       Con sus frutos perennes de amor  <br>
       Tu justicia proclama sin fin.<br></p>
   </div>
-  <div>
+  <div class="canto" id="canto10">
     <h2>Liberación<br> </h2>
     <p><br>
       En sus ojos, la libertad tiene luz, <br>
@@ -235,6 +344,18 @@
       de Nazaret, Jesús de Nazareth.<br></p>
   </div>
 </section>
+
+<!-- Pie de paguina (footer) -->
+<footer id="footer-contacto" class="seccion-oscura d-flex flex-column align-items-center justify-content-center barrido-final">
+  <img class="footer-logo" src="../recursos/generales/antorcha.svg" alt="Logotipo de Motolinia color blanco">
+  <p class="footer-texto text-center">Contactanos al: <br> 782 822 5819 <br> Dirección: <br> Calle Motolinía, No. 201, Col. Cazones, Poza Rica de Hidalgo, Mexico</p>
+  <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
+    <a href="https://www.facebook.com/CopaMotolinia" target="_blank" rel="noopener noreferrer">
+      <i class="bi bi-facebook"></i>
+    </a>
+  </div>
+  <div class="derechos-de-autor">Creado por Andres Garcia A. (2025) &#169;</div>
+</footer>
 
 
 <!-- Bootstrap JS -->

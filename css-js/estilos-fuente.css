@@ -1,12 +1,15 @@
 html {
     scroll-behavior: smooth;
+    scroll-snap-type: x mandatory;
   }
 
-.titulo-canto{
+.titulo{
+  color: white;
+  background-color: rgb(226, 16, 16);
 
 }
-.parrafo{
-
+.canto {
+  padding-top: 75px;
 }
 .seccion-canto{
     align-content: center;
@@ -16,8 +19,46 @@ html {
     align-items: center;
 }
 
+div:target h2{
+  color: white;
+  background-color: #13294a;
+}
 
-h2:target {
-  color: red;
-  background-color: yellow;
+/* boton boton-menu-lateral */
+
+.boton-menu-lateral {
+  position: fixed;
+  height: 4rem;
+  width: 4rem;
+  font-size: 3rem;
+  border-top-right-radius: 50%;
+  border-bottom-right-radius: 50%;
+  color: white;
+  background-color: rgb(226, 16, 16);
+  top: 7rem;
+  left: 0rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0.3rem 0.6rem rgba(0, 0, 0, 0.2); /* Sombra */
+  cursor: pointer; /* Cambia el cursor al pasar el mouse */
+  transition: background-color 0.3s ease; /* Transición suave */
+}
+
+.boton-menu-lateral:hover {
+  background-color: #41c9ff; /* Cambia el color al pasar el mouse */
+  box-shadow: 0rem 0rem 1rem white;
+}
+
+
+@media screen and (max-width: 767px){
+  .canto{
+    padding-top: 50px;
+  }
+
+  .boton-menu-lateral {
+      height: 3rem;
+      width: 3rem;
+      font-size: 2rem;
+  }
 }
