@@ -53,10 +53,10 @@
               <li><a class="dropdown-item" href="../Eventos-Deportivos.html">Eventos Deportivos</a></li>
               <li><a class="dropdown-item" href="./cantos.html">Cantos</a></li>
               <li><a class="dropdown-item" href="./croquis.html">Croquis</a></li>
-              <li><a class="dropdown-item" href="./futbol.html">Futbol</a></li>
+              <!-- <li><a class="dropdown-item" href="./futbol.html">Futbol</a></li>
               <li><a class="dropdown-item" href="./basquetbol.html">Basquetbol</a></li>
               <li><a class="dropdown-item" href="./voleibol.html">Voleibol</a></li>
-              <li><a class="dropdown-item" href="./taekwondo.html">Taekwondo</a></li>
+              <li><a class="dropdown-item" href="./taekwondo.html">Taekwondo</a></li> -->
               <!-- <li><a class="dropdown-item" href="./Eventos-Deportivos/sitios-de-interes.html">Sitios de interes</a></li> -->
             </ul>
           </li>
@@ -110,62 +110,47 @@
   <!-- Menu deslizable -->
   <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
     <div class="offcanvas-header">
-      <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">Menu de Cantos.</h5>
+      <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">Menu de Ubicaciones.</h5>
       <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
     </div>
-    <div class="offcanvas-body">
+    <div class="offcanvas-body menu-lateral">
       <ul>
-        <input type="radio" name="location" value="1" checked> Lugar 1
+        <li data-lugar="lugar1"><h6 data-bs-dismiss="offcanvas"><a href=""  >Jara Corona</a></h6></li>
+        <li data-lugar="lugar2"><h6 data-bs-dismiss="offcanvas"><a href=""  >Colegio Motolinia</a></h6></li>
+        <li data-lugar="lugar3"><h6 data-bs-dismiss="offcanvas"><a href=""  >Deportivo Petrolero</a></h6></li>
+        <li data-lugar="lugar4"><h6 data-bs-dismiss="offcanvas"><a href=""  >Casino Obrero Petrolero</a></h6></li>
       </ul>
-      <ul>
-        <input type="radio" name="location" value="2" checked> Lugar 2
-      </ul>
-      <ul>
-        <input type="radio" name="location" value="3" checked> Lugar 3
-      </ul>
-      <ul>
-        <input type="radio" name="location" value="4" checked> Lugar 4
-      </ul>
-      <ul>
-        <h6 data-bs-dismiss="offcanvas" name="location" value="3"><a href="#canto5"  >5.  SANTO</a></h6>
-      </ul>
-      <ul>
-        <h6 data-bs-dismiss="offcanvas"><a href="#canto6"  >6.  CORDERO</a></h6>
-      </ul>
-      <ul>
-        <h6 data-bs-dismiss="offcanvas"><a href="#canto7"  >7.  Comunión</a></h6>
-      </ul>
-      <ul>
-        <h6 data-bs-dismiss="offcanvas"><a href="#canto8"  >8.  COMUNION</a></h6>
-      </ul>
-      <ul>
-        <h6 data-bs-dismiss="offcanvas"><a href="#canto9"  >9.  SALIDA: EL JUSTO FLOCERA</a></h6>
-      </ul>
-      <ul>
-        <h6 data-bs-dismiss="offcanvas"><a href="#canto10"  >10. Liberación</a></h6>
-      </ul>
-      
     </div>
   </div>
 
 <section>
   <!-- Contenedor de la imagen -->
-  <div class="image-container">
-    <img id="croquis-image" src="../recursos/Imagenes de prueba Web/croquis-prueba-z1.png" alt="Croquis del lugar seleccionado">
+  <div class="imagen-contenedor">
+    <img  class="imagen-croquis img-fluid" id="imagen-principal" src="../recursos/croquis/lugar1.png" alt="Imagen del lugar">
   </div>
 
   <!-- JavaScript para cambiar la imagen -->
   <script>
-    const radios = document.querySelectorAll('input[name="location"]');
-    const image = document.getElementById('croquis-image');
-    const h6s = document.querySelectorAll('h6[name="location"]');
+    const lugares = document.querySelectorAll('.menu-lateral li');
+    const imagenPrincipal = document.getElementById('imagen-principal');
 
-    radios.forEach(radio => {
-      radio.addEventListener('change', (event) => {
-        const selectedValue = event.target.value;
-        image.src = `../recursos/Imagenes de prueba Web/croquis-prueba-z${selectedValue}.png`; // Cambia la imagen según la opción seleccionada
+    lugares.forEach(lugar => {
+      lugar.addEventListener('click', () => {
+        const nombreLugar = lugar.getAttribute('data-lugar');
+        imagenPrincipal.src = nombreLugar + '.png';
+
+        // Actualizar la URL con el parámetro del lugar
+        history.pushState(null, '', `?lugar=${nombreLugar}`);
       });
     });
+
+    // Cargar la imagen inicial desde la URL (si hay un parámetro)
+    const urlParams = new URLSearchParams(window.location.search);
+    const lugarInicial = urlParams.get('lugar');
+
+    if (lugarInicial) {
+      imagenPrincipal.src = '../recursos/croquis/'+ lugarInicial + '.png';
+    }
 
   </script>
 </section>
@@ -183,6 +168,9 @@
     <div class="derechos-de-autor">Creado por Andres Garcia A. (2025) &#169;</div>
   </footer>
   
+  <!-- Java Script -->
+
+  <script src="../css-js/croquis-imagenes.js"></script>
   
   <!-- Bootstrap JS -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>

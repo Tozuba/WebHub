@@ -88,6 +88,19 @@ html {
   box-shadow: 0rem 0rem 1rem white;
 }
 
+/* Croquis */
+
+.imagen-croquis {
+  align-items: center;
+}
+
+.imagen-contenedor {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
 /* Estilos de Secciones */
 
 .seccion-blanca {
