@@ -59,18 +59,54 @@ html {
 /* seccion encuentros */
 
 .encuentros {
-  
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.encuentros div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.deportes {
+  padding: 1rem;
+  margin: 3px;
+  height: 320px;
+  width: 320px;
+  border-radius: 15%;
+  box-shadow: 0 0.3rem 0.6rem rgba(0, 0, 0, 0.2); /* Sombra */
+  cursor: pointer; /* Cambia el cursor al pasar el mouse */
+  transition: background-color 0.3s ease; /* Transición suave */
+}
+
+.deportes:hover {
+  background-color: #41c9ff; /* Cambia el color al pasar el mouse */
+  box-shadow: 0rem 0rem 1rem white;
 }
 
 /* Estilos de Secciones */
 
 .seccion-blanca {
   background-color: #ffffff;
+  color: #13294a;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: "Lexend", serif;
 }
 
 .seccion-oscura {
   background-color: #13294a;
   color: #ffffff;
+  padding-top: 4rem;
+  padding-bottom: 3rem;
   display: flex;
   flex-direction: column;
   align-items: center;
