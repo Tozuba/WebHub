@@ -1,0 +1,23 @@
+html {
+    scroll-behavior: smooth;
+  }
+
+.titulo-canto{
+
+}
+.parrafo{
+
+}
+.seccion-canto{
+    align-content: center;
+}
+.seccion-canto div{
+    text-align: center;
+    align-items: center;
+}
+
+
+h2:target {
+  color: red;
+  background-color: yellow;
+}
