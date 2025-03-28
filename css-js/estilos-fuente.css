@@ -10,6 +10,7 @@ html {
 }
 .canto {
   padding-top: 75px;
+  
 }
 .seccion-canto{
     align-content: center;
@@ -50,6 +51,77 @@ div:target h2{
   box-shadow: 0rem 0rem 1rem white;
 }
 
+/* encuentros */
+
+.contenedor-rol {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 100%;
+  height: auto;
+  justify-content: space-evenly;  
+  text-align: center;
+}
+
+.tarjeta-rol {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  border-radius: 10px;
+  max-width: 100%;
+  height: auto;
+  text-align: center;
+  padding: 5px;
+  margin: 15px;
+  box-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.2); /* Sombra */
+}
+
+.tarjeta-rol:hover{
+  background-color: #13294a;
+  box-shadow: 0 0.3rem 0.5rem rgba(0, 13, 70, 0.842); /* Sombra */
+}
+
+
+.centrado-j {
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-evenly;
+  text-align: center;
+}
+
+
+
+
+
+@media screen and (max-width: 767px){
+  .tarjeta-rol {
+    margin: 0px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 767px){
+  .canto{
+    padding-top: 50px;
+  }
+
+  .boton-menu-lateral {
+      height: 3rem;
+      width: 3rem;
+      font-size: 2rem;
+  }
+}
 
 @media screen and (max-width: 767px){
   .canto{
