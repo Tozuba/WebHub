@@ -62,7 +62,7 @@ html {
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: center;
+  justify-content: space-evenly;
 }
 
 .encuentros div {
@@ -515,3 +515,136 @@ footer {
 }
 
   
+/* ##################################################### -----    ESTILO FUENTE CSS COPIA ----- ####################################### */
+
+
+.titulo{
+  color: white;
+  background-color: rgb(226, 16, 16);
+
+}
+.canto {
+  padding-top: 75px;
+  
+}
+.seccion-canto{
+    align-content: center;
+}
+.seccion-canto div{
+    text-align: center;
+    align-items: center;
+}
+
+div:target h2{
+  color: white;
+  background-color: #13294a;
+}
+
+/* boton boton-menu-lateral */
+
+.boton-menu-lateral {
+  position: fixed;
+  height: 4rem;
+  width: 4rem;
+  font-size: 3rem;
+  border-top-right-radius: 50%;
+  border-bottom-right-radius: 50%;
+  color: white;
+  background-color: rgb(226, 16, 16);
+  top: 7rem;
+  left: 0rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0.3rem 0.6rem rgba(0, 0, 0, 0.2); /* Sombra */
+  cursor: pointer; /* Cambia el cursor al pasar el mouse */
+  transition: background-color 0.3s ease; /* Transición suave */
+}
+
+.boton-menu-lateral:hover {
+  background-color: #41c9ff; /* Cambia el color al pasar el mouse */
+  box-shadow: 0rem 0rem 1rem white;
+}
+
+/* encuentros */
+
+.contenedor-rol {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;  
+  text-align: center;
+}
+
+.alto-auto {
+  max-width: 100%;
+  height: auto;
+}
+
+.tarjeta-rol {
+  flex-direction: row;
+  align-items: center;
+  border-radius: 10px;
+  text-align: center;
+  padding: 5px;
+  margin: 15px;
+  box-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.2); /* Sombra */
+}
+
+.tarjeta-rol:hover{
+  background-color: #13294a;
+  box-shadow: 0 0.3rem 0.5rem rgba(0, 13, 70, 0.842); /* Sombra */
+}
+
+
+.centrado-j {
+  align-items: center;
+  justify-content: space-evenly;
+  text-align: center;
+}
+
+.img-fluid-mod {
+  max-width: 100%;  /* La imagen no excederá el ancho de su contenedor */
+  height: auto;     /* Mantiene la proporción original */
+  display: block;   /* Elimina espacios fantasma en algunos navegadores */
+  margin: 0 auto;   /* Centra la imagen (opcional) */
+}
+
+/* Versión para móviles (ajustes adicionales) */
+@media (max-width: 768px) {
+  .img-fluid {
+    width: 100%;    /* Opcional: fuerza ocupar todo el ancho en móviles */
+  }
+}
+
+
+
+@media screen and (max-width: 766px){
+  .tarjeta-rol {
+    margin: 0px;
+  }
+}
+
+@media screen and (max-width: 766px){
+  .canto{
+    padding-top: 50px;
+  }
+
+  .boton-menu-lateral {
+      height: 3rem;
+      width: 3rem;
+      font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 766px){
+  .canto{
+    padding-top: 50px;
+  }
+
+  .boton-menu-lateral {
+      height: 3rem;
+      width: 3rem;
+      font-size: 2rem;
+  }
+}
