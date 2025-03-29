@@ -610,6 +610,17 @@ div:target h2{
   margin: 0 auto;   /* Centra la imagen (opcional) */
 }
 
+
+.premios-tae {
+  max-width: 400px;
+}
+
+.centrado-contenido {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
 /* Versión para móviles (ajustes adicionales) */
 @media (max-width: 768px) {
   .img-fluid {
