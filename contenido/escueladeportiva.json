@@ -1,0 +1,52 @@
+[
+  {
+  "tipo": "textoFondoFull",
+  "texto": "<H1 style=\"font-size: 3.5em;\">Coordinación de Escuela Deportiva</H1>",
+  "fondo": "linear-gradient(to bottom, rgba(19,41,74,0.9 ) , transparent)",
+  "colorTexto": "#fff",
+  "fuente": "Montserrat, Arial, sans-serif"
+},
+  
+  {
+    "tipo": "imagenArriba",
+    "titulo": "Bienvenido a la Escuela Deportiva",
+    "texto": "En el Departamento de Escuela Deportiva del Colegio Motolinía de Poza Rica, promovemos el desarrollo integral de nuestros alumnos a través del deporte. Invitamos a estudiantes de todos los niveles a formar parte de nuestras disciplinas, donde aprenderán las reglas del juego, valores como el trabajo en equipo, y llevarán una vida más sana. Contamos con espacios seguros, entrenadores capacitados y una filosofía clara: cuerpo sano, mente sana.",
+    "imagen": "recursos/escueladeportiva/esc-dep.png",
+    "fondo": "#ffffff"
+  },
+  {
+    "tipo": "imagenTexto",
+    "titulo": "Basketbol",
+    "texto": "El básquetbol se imparte de lunes a jueves en nuestras dos canchas externas y en el auditorio climatizado. Los alumnos de primaria tienen clase de 16:00 a 17:30, mientras que los de secundaria y bachillerato entrenan de 17:30 a 19:00. Las sesiones fortalecen habilidades físicas, estrategias de juego, y fomentan la confianza a través de competencias internas y externas.",
+    "imagen": "recursos/escueladeportiva/basketbol.JPG",
+    "fondo": "#ffffff"
+  },
+  {
+    "tipo": "imagenTextoDer",
+    "titulo": "Taekwondo",
+    "texto": "El taekwondo se enseña en un salón especializado y climatizado. Para primaria, las clases son de lunes a jueves de 15:00 a 16:00, y para secundaria los martes y jueves de 16:00 a 18:00. Además de fortalecer el cuerpo y la mente, los alumnos presentan tres exámenes de cambio de cinta al año, avalados por la Confederación Nacional de Taekwondo.",
+    "imagen": "recursos/escueladeportiva/taekwondo.JPG",
+    "fondo": "#ffffff"
+  },
+  {
+    "tipo": "imagenTextoLista",
+    "titulo": "Voleibol",
+    "texto": "Nuestra disciplina de voleibol se practica también de lunes a jueves en el auditorio con duela. Los estudiantes de primaria entrenan de 16:00 a 17:30, y los de secundaria y bachillerato de 17:30 a 19:00. Fomentamos la técnica, coordinación y disciplina en un ambiente motivador con convivencias deportivas durante el ciclo escolar.",
+    "imagen": "recursos/escueladeportiva/Voley.JPG",
+    "fondo": "#ffffff"
+  },
+  {
+  "tipo": "videoFondo",
+  "video": "recursos/fondos/Fondo-olas.mp4",
+  "imagenAlternativa": "recursos/fondos/Fondo-olas-Miniatura.jpg"
+},{
+  "tipo": "piePagina",
+  "imagen": "recursos/logos/antorcha1-1.webp",
+  "titulo": "Colegio Motolinía",
+  "texto": "Dirección: Calle Motolinía, No. 201, Col. Cazones, Poza Rica de Hidalgo, Veracruz.<br>Teléfono: 782-822-5819",
+  "fondo": "#13294a",
+  "colorTexto": "#fff",
+  "fuente": "Montserrat, Arial, sans-serif",
+  "alt": "Logo Motolinía"
+}
+]

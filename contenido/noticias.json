@@ -1,0 +1,26 @@
+{
+  "tipo": "noticias",
+  "titulo": "Noticias",
+  "fondoTitulo": "#13294a",
+  "colorTitulo": "#fff",
+  "noticias": [
+    {
+      "id": "1",
+      "titulo": "Inauguración de la nueva biblioteca",
+      "fondoTitulo": "#1976d2",
+      "colorTitulo": "#fff",
+      "items": [
+        { "tipo": "texto", "texto": "Se inauguró la nueva biblioteca...", "fondo": "#e3f2fd", "colorTexto": "#222", "alineacion": "center" },
+        { "tipo": "imagen", "imagen": "recursos/noticias/biblioteca.jpg", "texto": "Vista de la biblioteca", "fondo": "#fff" }
+      ]
+    },
+    {
+      "id": "2",
+      "titulo": "Festival deportivo",
+      "items": [
+        { "tipo": "video", "video": "recursos/noticias/festival.mp4", "controles": true, "texto": "Resumen del festival", "fondo": "#fff" },
+        { "tipo": "texto", "texto": "Participaron todos los niveles...", "fondo": "#f5f5f5", "colorTexto": "#222", "alineacion": "justify" }
+      ]
+    }
+  ]
+}

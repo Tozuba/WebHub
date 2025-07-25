@@ -1,0 +1,38 @@
+[
+  {
+    "fecha": "2025-06-12",
+    "eventos": [
+      { "titulo": "Jesús Sacerdote 09:00 Colegio Central", "horario": "", "tipo": "misas" }
+    ]
+  },
+  {
+    "fecha": "2025-06-14",
+    "eventos": [
+      { "titulo": "Retiro comunión 8:30 Colegio Central", "horario": "", "tipo": "evento" }
+    ]
+  },
+  {
+    "fecha": "2025-06-21",
+    "eventos": [
+      { "titulo": "Primera Comunión Pendiente Colegio Central", "horario": "", "tipo": "evento" }
+    ]
+  },
+  {
+    "fecha": "2025-06-19",
+    "eventos": [
+      { "titulo": "Corpus Christi 09:00 Colegio Central", "horario": "", "tipo": "evento" }
+    ]
+  },
+  {
+    "fecha": "2025-07-07",
+    "eventos": [
+      { "titulo": "Acción de Gracias escuela básica 09:00 Colegio Central", "horario": "", "tipo": "misas" }
+    ]
+  },
+  {
+    "fecha": "2025-07-08",
+    "eventos": [
+      { "titulo": "Acción de Gracias bachillerato", "horario": "", "tipo": "misas" }
+    ]
+  }
+]

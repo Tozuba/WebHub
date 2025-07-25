@@ -1,0 +1,52 @@
+[
+  
+  {
+  "tipo": "videoArribaTitulo",
+  "video": "recursos/titulos/TitulosPaginasPrimaria.mp4",
+  "imagenAlternativa": "recursos/titulos/TitulosPaginasPrimaria-Miniatura.jpg",
+  "fondo": "rgba(19, 41, 74, 0.0)"
+},
+  {
+    "tipo": "imagenArriba",
+    "titulo": "Bienvenido a Primaria",
+    "texto": "Nos proyectamos con un esfuerzo conjunto de excelencia educativa en: Desarrollo de actitudes y valores humanos, católicos y culturales.  Robótica, Talleres (Danza, Música y Pintura), Inglés (a partir de 5° certificación por parte de Cambridge), Francés, Educación física, entre otros",
+    "imagen": "recursos/primaria/BienvenidoPrimaria.jpeg",
+    "fondo": "#ffffff"
+  },
+  {
+    "tipo": "imagenTexto",
+    "titulo": "Perfil de ingreso",
+    "texto": "Interés por aprender: Curiosidad, disposición a explorar el mundo y hacer preguntas. Habilidades de comunicación: Poder expresar ideas y necesidades, entender instrucciones sencillas. Interacción social: Capacidad para trabajar con otros, seguir reglas y normas de convivencia. Desarrollo psicomotor: Control del cuerpo, coordinación básica, manipulación de objetos. Conocimiento básico del entorno: Nombres de objetos comunes, nociones básicas de tiempo y espacio.",
+    "imagen": "recursos/primaria/IngresoPrimaria.jpeg",
+    "fondo": "#ffffff"
+  },
+  {
+    "tipo": "imagenTextoDer",
+    "titulo": "Perfil de egreso",
+    "texto": "· Reconocen su derecho a una vida digna, con libertad para decidir sobre su cuerpo, identidad y bienestar, asumiendo responsabilidades consigo mismos y con su comunidad. Valoran la diversidad en todas sus formas como parte esencial de la identidad mexicana. Reconocen la igualdad de derechos y capacidades entre mujeres y hombres para vivir con dignidad, libres de violencia y discriminación. Valoran sus capacidades para desarrollarse personal y colectivamente a lo largo de su vida. Desarrollan un pensamiento crítico y propio para comprender su realidad y rechazar toda forma de injusticia y discriminación. Se reconocen como parte de la naturaleza y comprenden la relación entre su bienestar integral y el cuidado del medio ambiente desde una visión sustentable. Analizan e investigan diversos fenómenos para explicarlos con fundamentos científicos y saberes comunitarios, desarrollando autonomía para resolver problemas complejos. Dialogan y colaboran con respecto a la diversidad, adaptándose al cambio y desarrollando capacidades para emprender proyectos personales y colectivos. Se comunican de forma ética y respetuosa en distintos lenguajes, intercambiando ideas y usando medios digitales para expresar, analizar y evaluar información. Desarrollan el pensamiento crítico para valorar saberes, reconocer la historia y la cultura y proponer cambios comunitarios desde una perspectiva solidaria.",
+    "imagen": "recursos/primaria/EgresoPrimaria.jpeg",
+    "fondo": "#ffffff"
+  },
+  {
+    "tipo": "imagenTextoLista",
+    "titulo": "Documentación requerida",
+    "texto": "<ul><li>Acta de nacimiento original y 2 copias</li><li>CURP 2 copias</li><li>Cartilla de vacunación 2 copias</li><li>Certificado y boleta de evaluación de preescolar 2 copias (primer grado)</li><li>Alumnos que cursarán 2° a 6° boleta de evaluación del año anterior cursado y copias de los años cursados anteriores</li><li>Carta de buena conducta de la escuela de procedencia</li><li>Sólo si se inscriben en otro momento del ciclo escolar, constancia de inscripción(baja), constancia de calificaciones de hasta el momento del cambio.</li><li>Actas de nacimiento de papá y mamá 2 copias</li><li>INE o pasaporte de papá y mamá 2 copias</li><li>CURP de papá y mamá 2 copias</li><li>Comprobante de domicilio 1 copia</li><li>Constancia laboral</li></ul>",
+    "imagen": "recursos/primaria/docu2.jpeg",
+    "fondo": "#ffffff"
+  },
+  {
+  "tipo": "videoFondo",
+  "video": "recursos/fondos/Fondo-olas.mp4",
+  "imagenAlternativa": "recursos/fondos/Fondo-olas-Miniatura.jpg"
+},{
+  "tipo": "piePagina",
+  "imagen": "recursos/logos/antorcha1-1.webp",
+  "titulo": "Colegio Motolinía",
+  "texto": "Dirección: Calle Motolinía, No. 201, Col. Cazones, Poza Rica de Hidalgo, Veracruz.<br>Teléfono: 782-822-5819",
+  "fondo": "#13294a",
+  "colorTexto": "#fff",
+  "fuente": "Montserrat, Arial, sans-serif",
+  "alt": "Logo Motolinía"
+}
+  
+]

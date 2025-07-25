@@ -1,0 +1,53 @@
+[
+  {
+  "tipo": "textoFondoFull",
+  "texto": "<H1 style=\"font-size: 3.5em;\">Coordinación de Idiomas</H1>",
+  "fondo": "linear-gradient(to bottom, rgba(19,41,74,0.9 ) , transparent)",
+  "colorTexto": "#fff",
+  "fuente": "Montserrat, Arial, sans-serif"
+},
+  
+  {
+    "tipo": "imagenArriba",
+    "titulo": "Tu Pasaporte al Mundo",
+    "texto": "<p>En un mundo cada vez más conectado, <strong>dominar idiomas abre puertas ilimitadas</strong>. En el <em>Colegio Motolinía</em>, te impulsamos a conquistar el mundo a través de una <strong>formación lingüística de excelencia</strong>.</p>",
+    "imagen": "recursos/ingles/pasaporte.jpeg",
+    "fondo": "#ffffff"
+  },
+  {
+    "tipo": "imagenTexto",
+    "titulo": "Certificación",
+    "texto": "Respaldados por instituciones líderes como <strong>Cambridge</strong> y la <strong>Alianza Francesa</strong>, nuestros programas de vanguardia te guiarán hacia la <strong>fluidez</strong> y la <strong>confianza</strong>. Además, ofrecemos la posibilidad de participar en <strong>viajes internacionales</strong> para que puedas <strong>vivir el idioma en carne propia</strong> y <strong>sumergirte en nuevas culturas</strong>.",
+    "imagen": "recursos/ingles/CAMBRIDGE.webp",
+    "fondo": "#ffffff"
+  },
+  {
+    "tipo": "imagenTextoDer",
+    "titulo": "Evoluciona",
+    "texto": "Más que un idioma, te ofrecemos una <strong>conexión global</strong>: una experiencia que <strong>expande tus horizontes</strong> y te <strong>prepara para los desafíos del futuro</strong>.",
+    "imagen": "recursos/ingles/lOGO-delf--recorte.png",
+    "fondo": "#ffffff"
+  },
+  {
+    "tipo": "imagenTextoLista",
+    "titulo": "Despega tu futuro",
+    "texto": "Únete a nuestra <strong>aventura lingüística</strong>. ¡<strong>El mundo te espera</strong>!",
+    "imagen": "recursos/ingles/vuelo.jpeg",
+    "fondo": "#ffffff"
+  },
+  {
+  "tipo": "videoFondo",
+  "video": "recursos/fondos/Fondo-olas.mp4",
+  "imagenAlternativa": "recursos/fondos/Fondo-olas-Miniatura.jpg"
+},{
+  "tipo": "piePagina",
+  "imagen": "recursos/logos/antorcha1-1.webp",
+  "titulo": "Colegio Motolinía",
+  "texto": "Dirección: Calle Motolinía, No. 201, Col. Cazones, Poza Rica de Hidalgo, Veracruz.<br>Teléfono: 782-822-5819",
+  "fondo": "#13294a",
+  "colorTexto": "#fff",
+  "fuente": "Montserrat, Arial, sans-serif",
+  "alt": "Logo Motolinía"
+}
+  
+]

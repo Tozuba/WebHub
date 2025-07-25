@@ -1,0 +1,52 @@
+[
+  
+  {
+  "tipo": "videoArribaTitulo",
+  "video": "recursos/titulos/TitulosPaginasSecundaria.mp4",
+  "imagenAlternativa": "recursos/titulos/TitulosPaginasSecundaria-Miniatura.jpg",
+  "fondo": "rgba(19, 41, 74, 0.0)"
+},
+  {
+    "tipo": "imagenArriba",
+    "titulo": "Bienvenido a Secundaria",
+    "texto": "En secundaria se desarrollan habilidades comunicativas, de pensamiento lógico-matemático, socioemocionales y creativas, además de fomentar su autonomía, curiosidad y respeto por los demás.",
+    "imagen": "recursos/secundaria/BienvenidoSecundaria.jpeg",
+    "fondo": "#ffffff"
+  },
+  {
+    "tipo": "imagenTexto",
+    "titulo": "Perfil de ingreso",
+    "texto": "Quien ingresa a Secundaria Motolinía, además de tener debidamente acreditada la etapa anterior y presentar documentos correspondientes, de acuerdo con las disposiciones oficiales de las autoridades educativas. Debe : Reconocer su capacidad para aprender, modificar, adoptar, aplicar y producir nuevos conocimientos desde su vivencia en la comunidad, región o país. Respetar   las reglas básicas de la convivencia escolar de la Institución. Reconocer y practicar los valores: Respeto, Unidad, Responsabilidad, Caridad, Patriotismo, Alegría, Solidaridad, Gratitud. Valorar y respetar el amor a la naturaleza como elemento básico de una mejorcalidad de vida para todos. Asumir la responsabilidad y criterios que norman las actividades (reglamentos) Valorar la importancia de la autoformación y la formación permanente, como proceso de mejoramiento de su vida y de la de otros. Comunicar con asertividad en forma correcta y fluida, demostrando habilidades orales y escritas, investiga y soluciona diversos problemas con análisis, reflexión y creatividad.",
+    "imagen": "recursos/secundaria/IngresoSecundaria.jpeg",
+    "fondo": "#ffffff"
+  },
+  {
+    "tipo": "imagenTextoDer",
+    "titulo": "Perfil de egreso",
+    "texto": "Competencias Académicas: Pensamiento crítico y resolución de problemas: Analiza, argumenta y toma decisiones informadas ante situaciones complejas. Comunicación efectiva: Se expresa con claridad en forma oral y escrita, en español y en lenguas indígenas o extranjeras cuando corresponda. Habilidades digitales: Usa tecnologías de manera ética, crítica y creativa para aprender, comunicar y resolver problemas. Investigación y aprendizaje autónomo: Busca, selecciona y evalúa información para construir conocimiento. Competencias socioemocionales y éticas: Autoconocimiento y autorregulación: Reconoce sus emociones, fortalezas y áreas de mejora. Empatía y colaboración: Trabaja en equipo, respeta la diversidad y promueve la inclusión. Responsabilidad y ética: Actúa con integridad, justicia y compromiso con el bien común. Ciudadanía Crítica y Global: Compromiso social y ambiental: Participa activamente en su comunidad, promueve la equidad y cuida el medio ambiente. Identidad nacional y diversidad cultural: Valora su cultura, historia y tradiciones, y respeta otras formas de vida. Democracia y derechos humanos: Conoce y ejerce sus derechos y deberes con responsabilidad.Proyecto de Vida, Vocación y propósito: Identifica sus intereses y talentos para construir un proyecto de vida con sentido personal y social. Adaptabilidad y liderazgo: Se adapta a los cambios, toma iniciativa y lidera con responsabilidad",
+    "imagen": "recursos/secundaria/EgresoSecundaria.jpeg",
+    "fondo": "#ffffff"
+  },
+  {
+    "tipo": "imagenTextoLista",
+    "titulo": "Documentación requerida",
+    "texto": "<ul><li>Original y dos copias del Certificado de Primaria.</li><li>Original y dos copias del Acta de Nacimiento.</li><li>Boleta del grado anterior.</li><li>Copia de la C.U.R.P.</li><li>Carta de Conducta.</li><li>Cartilla de Vacunación.</li></ul>",
+    "imagen": "recursos/secundaria/docu3.jpeg",
+    "fondo": "#ffffff"
+  },
+  {
+  "tipo": "videoFondo",
+  "video": "recursos/fondos/Fondo-olas.mp4",
+  "imagenAlternativa": "recursos/fondos/Fondo-olas-Miniatura.jpg"
+},{
+  "tipo": "piePagina",
+  "imagen": "recursos/logos/antorcha1-1.webp",
+  "titulo": "Colegio Motolinía",
+  "texto": "Dirección: Calle Motolinía, No. 201, Col. Cazones, Poza Rica de Hidalgo, Veracruz.<br>Teléfono: 782-822-5819",
+  "fondo": "#13294a",
+  "colorTexto": "#fff",
+  "fuente": "Montserrat, Arial, sans-serif",
+  "alt": "Logo Motolinía"
+}
+  
+]

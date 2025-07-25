@@ -1,0 +1,124 @@
+[
+  
+{
+  "tipo": "textoFondoFull",
+  "texto": "<H1 style=\"font-size: 3.5em;\">Bienvenido al Colegio Motolinía </H1><h2>Arder e iluminar</h2>",
+  "fondo": "linear-gradient(to bottom, rgba(19,41,74,0.9 ) , transparent)",
+  "colorTexto": "#fff",
+  "fuente": "Montserrat, Arial, sans-serif"
+},
+{
+  "tipo": "videoLoop",
+  "video": "recursos\\spots\\Spot20s_personal_face.mp4",
+  "imagenAlternativa": "recursos/videos/tu-video-poster.jpg",
+  "fondo": "rgba(19, 41, 74, 0.0)"
+},
+{
+  "tipo": "customCards4",
+  "titulo": "Nuestros Niveles Educativos",
+  "colorTitulo": "#13294a",
+  "fondo": "rgba(19, 41, 74, 0.0)",
+  "items": [
+    {
+      "imagen": "recursos/cartas/1.png",
+      "titulo": "Preescolar",
+      "texto": "REVOE PRE016/2005<div>CT 30PJN0722K</div>",
+      "fondo": "rgba(19, 41, 74, 1)",
+      "colorTexto": "#fff",
+      "avatar": "recursos/logos/antorcha1-1.webp",
+      "ruta": "preescolar.html"
+    },
+    {
+      "imagen": "recursos/cartas/2.png",
+      "titulo": "Primaria",
+      "texto": "REVOE 4273/1953<div>CT 30PPR2767K</div>",
+      "fondo": "rgba(19, 41, 74, 0.0)",
+      "colorTexto": "#fff",
+      "avatar": "recursos/logos/antorcha1-1.webp",
+      "ruta": "primaria.html"
+    },
+    {
+      "imagen": "recursos/cartas/3.png",
+      "titulo": "Secundaria",
+      "texto": "REVOE 5017/1960<div>CT 30PES0142N</div>",
+      "fondo": "#fbc02d",
+      "colorTexto": "#fff",
+      "avatar": "recursos/logos/antorcha1-1.webp",
+      "ruta": "secundaria.html"
+    },
+    {
+      "imagen": "recursos/cartas/4.png",
+      "titulo": "Bachillerato",
+      "texto": "REVOE 02696/1994<div>CT 30PBH0418H</div>",
+      "fondo": "#8e24aa",
+      "colorTexto": "#fff",
+      "avatar": "recursos/logos/antorcha1-1.webp",
+      "ruta": "bachillerato.html"
+    }
+  ]
+},
+ 
+  {
+  "tipo": "imagenTexto",
+  "imagen": "recursos/M.lolita.jpg",
+  "titulo": "Misión",
+  "texto": "Los colegios Católicos de las misioneras de Jesús Sacerdote, integrados por maestros, alumnos y en colaboración con los padres de familia, personal administrativo y de apoyo, propician en sus alumnos de educación elemental básica, educación media y media superior, una formación integral, con carisma sacerdotal, eclesial y mariano para que sean personas comprometidas en la construcción de una Sociedad más humana y unida por el amor, la esperanza y la justicia.",
+  "fondo": "#fff"
+  },
+  {
+  "tipo": "imagenTextoDer",
+  "imagen": "recursos/P-edmundo.png",
+  "titulo": "Visión",
+  "texto": "Ser un colegio católico de alta calidad donde nuestros alumnos y maestros cuenten con las competencias necesarias para responder a la realidad social existente, en convicción de los valores que les permita desarrollarse como seres humanos y misericordiosos forjadores de una Patria más justa.",
+  "fondo": "#fff"
+  },
+  {
+  "tipo": "customCards",
+  "titulo": "Coordinaciones",
+  "items": [
+    {
+      "imagen": "recursos/directivos/director.jpg",
+      "titulo": "Ingles",
+      "texto": "Examenes de Cambridge, clases de inglés desde preescolar hasta bachillerato.",
+      "fondo": "#13294a",
+      "colorTexto": "#fff",
+      "avatar": "recursos/logos/antorcha1-1.webp",
+      "ruta": "idiomas.html"
+    },{
+      "imagen": "recursos/cartas/esc-dep.png",
+      "titulo": "Escuela deportiva",
+      "texto": "Fomenta el deporte y la actividad física en nuestros alumnos.",
+      "fondo": "rgba(19, 41, 74, 0.0)",
+      "colorTexto": "#fff",
+      "avatar": "recursos/logos/antorcha1-1.webp",
+      "ruta": "escueladeportiva.html"
+    },
+    {
+      "imagen": "recursos/cartas/",
+      "titulo": "Pastoral",
+      "texto": "Fomenta la formación espiritual y los valores católicos en nuestros alumnos.",
+      "fondo": "#13294a",
+      "colorTexto": "#fff",
+      "avatar": "recursos/logos/antorcha1-1.webp",
+      "ruta": "pastoral.html"
+    }
+  ]
+},{
+  "tipo": "videoFondo",
+  "video": "recursos/fondos/Fondo-olas.mp4",
+  "imagenAlternativa": "recursos/fondos/Fondo-olas-Miniatura.jpg"
+}
+,  {
+    "tipo": "calendario",
+    "detalle": "General"
+  },{
+  "tipo": "piePagina",
+  "imagen": "recursos/logos/antorcha1-1.webp",
+  "titulo": "Colegio Motolinía",
+  "texto": "Dirección: Calle Motolinía, No. 201, Col. Cazones, Poza Rica de Hidalgo, Veracruz.<br>Teléfono: 782-822-5819",
+  "fondo": "#13294a",
+  "colorTexto": "#fff",
+  "fuente": "Montserrat, Arial, sans-serif",
+  "alt": "Logo Motolinía"
+}
+]

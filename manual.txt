@@ -1,0 +1,75 @@
+Manual de uso y actualización del sitio web Motolinia
+====================================================
+
+Estructura general
+------------------
+El sitio está construido en HTML, CSS y JavaScript, usando Bootstrap para el diseño visual. El contenido dinámico (carruseles, textos, menús, pie de página, calendario) se gestiona desde archivos JSON en la carpeta `contenido/` y se inserta automáticamente en las páginas mediante el script `css-js/dinamic-gen.js`.
+
+Estructura de archivos y carpetas
+---------------------------------
+- **HTML**: Cada sección principal tiene su propio archivo HTML (ej: `index.html`, `primaria.html`, etc.).
+- **CSS**: Los estilos están en `css-js/estilos-comun.css` (estilos generales), `css-js/estilos-secciones.css` (estilos de secciones dinámicas y calendario) y `css-js/estilos-noticias.css` (noticias).
+- **JS**: El archivo principal es `css-js/dinamic-gen.js`, que genera el contenido dinámico a partir de los JSON.
+- **contenido/**: Archivos JSON con el contenido de cada página.
+- **eventos/**: Archivos JSON con los eventos para el calendario de cada sección.
+- **recursos/**: Carpeta para imágenes y otros recursos.
+
+Funcionamiento del sistema dinámico
+-----------------------------------
+- Cada página HTML incluye un `<div id="secciones-dinamicas"></div>` donde se inserta el contenido dinámico.
+- El script `dinamic-gen.js` detecta la página actual y carga el JSON correspondiente desde la carpeta `contenido/`.
+- El objeto `templates` en `dinamic-gen.js` define cómo se renderiza cada tipo de sección (por ejemplo, "carrusel", "texto", "calendario").
+- El calendario se genera dinámicamente y muestra los eventos del archivo JSON correspondiente en la carpeta `eventos/`.
+- El menú de navegación (navbar) y el pie de página (footer) se generan automáticamente a partir de `contenido/comun.json`.
+
+Actualización de elementos
+--------------------------
+
+1. **Menú de navegación (navbar) y pie de página (footer):**
+   - Archivo: `contenido/comun.json`
+   - Para agregar, quitar o modificar enlaces del menú, edita el array `navbar.enlaces`.
+   - Para cambiar el texto del pie de página, edita el valor de `footer.texto`.
+   - Los cambios se reflejan automáticamente en todas las páginas al recargar.
+
+2. **Contenido dinámico de cada página:**
+   - Archivos: `contenido/index.json`, `contenido/primaria.json`, etc.
+   - Puedes agregar secciones tipo "carrusel", "texto", "calendario" (o más si agregas plantillas en JS).
+   - Para modificar el carrusel, edita el objeto con `"tipo": "carrusel"` y sus `items`.
+   - Para cambiar el texto de bienvenida u otras secciones, edita o agrega objetos con `"tipo": "texto"`.
+   - Para mostrar un calendario, agrega un objeto con `"tipo": "calendario"`.
+
+3. **Eventos del calendario:**
+   - Archivos: `eventos/index.json`, `eventos/primaria.json`, etc.
+   - Cada evento debe tener al menos: `fecha` (YYYY-MM-DD), `tipo` (ej: "misas", "vacaciones"), y `titulo`.
+   - Los colores y etiquetas de los tipos de evento se definen en el JS.
+
+4. **Estilos personalizados:**
+   - Archivo principal: `css-js/estilos-secciones.css`
+   - Aquí puedes modificar los estilos de las secciones dinámicas, calendario, menús y otros elementos visuales.
+
+5. **Agregar nuevas plantillas de sección:**
+   - Edita el objeto `templates` en `css-js/dinamic-gen.js` para definir nuevos tipos de secciones.
+   - Usa la misma lógica que para "carrusel", "texto" o "calendario".
+   - Asegúrate de que el JSON correspondiente tenga el campo `"tipo"` igual al nombre de la plantilla.
+
+Comentarios y estructura de los documentos principales
+-----------------------------------------------------
+- **HTML**: Cada archivo HTML incluye comentarios al inicio indicando el filepath. El navbar y footer se generan dinámicamente, por lo que solo contienen un contenedor vacío para los enlaces.
+- **estilos-comun.css**: Comentarios al inicio explican que son estilos generales para navbar, footer y layout.
+- **estilos-secciones.css**: Comentarios y secciones separadas para carrusel, texto, calendario, menú desplegable, leyenda, y media queries.
+- **dinamic-gen.js**: Comentarios al inicio y en cada función/plantilla explicando su propósito. El objeto `templates` está documentado para cada tipo de sección.
+- **manual.txt**: Este archivo explica la estructura, funcionamiento y pasos para actualizar el sitio.
+
+Pasos para actualizar el contenido
+----------------------------------
+1. Abre el archivo JSON correspondiente en la carpeta `contenido/` o `eventos/`.
+2. Realiza los cambios necesarios (agrega, edita o elimina objetos/secciones/eventos).
+3. Guarda el archivo.
+4. Recarga la página en el navegador para ver los cambios reflejados.
+
+Notas adicionales
+-----------------
+- Si agregas una nueva página HTML y quieres que tenga contenido dinámico, asegúrate de incluir el elemento `<div id="secciones-dinamicas"></div>` y el script `css-js/dinamic-gen.js`.
+- Para agregar nuevas secciones dinámicas, define su plantilla en el JS y su estructura en el JSON.
+- Si tienes dudas sobre la estructura de los archivos JSON, revisa los ejemplos en `index.json` y `comun.json`.
+- Los comentarios en los archivos fuente ayudan a identificar rápidamente la función de cada bloque de código o sección.

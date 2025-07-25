@@ -1,0 +1,23 @@
+{
+  "navbar": {
+    "enlaces": [
+      { "texto": "Inicio", "href": "index.html", "activo": true },
+      { "texto": "Niveles Academicos", "submenu": [
+        { "texto": "Preescolar", "href": "preescolar.html" },
+        { "texto": "Primaria", "href": "primaria.html" },
+        { "texto": "Secundaria", "href": "secundaria.html" },
+        { "texto": "Bachillerato", "href": "bachillerato.html" }
+
+      ]},
+      {"texto": "Coordinaciones", "submenu": [
+        { "texto": "Idiomas", "href": "idiomas.html" },
+        { "texto": "Pastoral", "href": "pastoral.html" },
+        { "texto": "Escuela Deportiva", "href": "escueladeportiva.html" }
+      ]},
+      { "texto": "Noticias", "href": "noticias.html" }
+    ]
+  },
+  "footer": {
+    "texto": "&copy; 2025 Motolinia. Todos los derechos reservados. | Andrés García A." 
+  }
+}

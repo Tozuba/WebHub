@@ -1,0 +1,52 @@
+/*
+  Estilos comunes para la barra de navegación y el pie de página
+*/
+:root {
+  --color-primario: #13294a;
+  --color-blanco: #fff;
+  --color-gris: #7c7c7c;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f4f4f4;
+}
+
+.navbar {
+  background: var(--color-primario) !important;
+}
+
+.navbar-brand, .navbar-nav .nav-link {
+  color: var(--color-blanco) !important;
+}
+
+.navbar-nav .nav-link.active {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+main {
+    padding: 2rem;
+    max-width: 900px;
+    margin:5rem auto 2rem auto;
+    background: var(--color-blanco);
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+footer {
+  background: var(--color-primario);
+  color: var(--color-blanco);
+  text-align: center;
+  padding: 1rem 2rem;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  z-index: 1030;
+}
+
+header h1 {
+  color: var(--color-primario);
+}

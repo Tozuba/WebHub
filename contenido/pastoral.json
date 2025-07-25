@@ -1,0 +1,52 @@
+[
+  {
+  "tipo": "textoFondoFull",
+  "texto": "<H1 style=\"font-size: 3.5em;\">Coordinación de Pastoral</H1>",
+  "fondo": "linear-gradient(to bottom, rgba(19,41,74,0.9 ) , transparent)",
+  "colorTexto": "#fff",
+  "fuente": "Montserrat, Arial, sans-serif"
+},
+  
+  {
+    "tipo": "imagenArriba",
+    "titulo": "Acércate al Espíritu Santo",
+    "texto": "Bienvenido a la Coordinación de Pastoral. Aquí acompañamos el crecimiento espiritual de nuestros estudiantes a través de la celebración de Eucaristías, formación en catequesis, y preparación para los sacramentos de Confirmación y Comunión.",
+    "imagen": "recursos/pastoral/Pastoral1.jpeg",
+    "fondo": "#ffffff"
+  },
+  {
+    "tipo": "imagenTexto",
+    "titulo": "Formación Espiritual",
+    "texto": "La Confirmación reafirma el Bautismo y fortalece la fe del joven ante la comunidad. Es el momento en que, con la guía del Espíritu Santo, abraza su compromiso cristiano con madurez y convicción. Documentación (solo copias): <ul><li>Acta de nacimiento del confirmado</li><li>INE de los padres</li><li>INE de los padrinos</li><li>Acta de matrimonio (si los padrinos están casados por la Iglesia)</li><li>Fe de bautismo del confirmado</li><li>Acta de Comunión (en caso de haberla realizado)</li></ul>",
+    "imagen": "recursos/pastoral/espiritu.jpeg",
+    "fondo": "#ffffff"
+  },
+  {
+    "tipo": "imagenTextoDer",
+    "titulo": "Comunión",
+    "texto": "La Comunión es un sacramento que nos une más estrechamente a Cristo y a la comunidad. Es el momento en que el joven recibe por primera vez el Cuerpo y Sangre de Cristo, fortaleciendo su vida espiritual y su compromiso con la fe. Documentación (solo copias): <ul><li>Acta de nacimiento del comulgante</li><li>INE de los padres</li><li>INE de los padrinos</li><li>Fe de bautismo del comulgante</li></ul>",
+    "imagen": "recursos/pastoral/comunion.jpeg",
+    "fondo": "#ffffff"
+  },
+  {
+    "tipo": "imagenTextoLista",
+    "titulo": "Misioneras de Jesús Sacerdote",
+    "texto": "Como Misioneras de Jesús Sacerdote somos enviadas a dar a conocer el Misterio Sacerdotal de Cristo, a promover en el pueblo de Dios la vivencia de su Sacerdocio Bautismal, a orar y sacrificarnos por la multiplicación y santificación de los que ejercen el Sacerdocio Ministerial, por medio de la EDUCACIÓN EVANGELIZADORA y de la EVANGELIZACIÓN EDUCADORA. Para ello tenemos Escuelas, Universidad, Casas Cenáculos y de Pastoral donde acompañamos grupos de Misioneros Laicos de Jesús Sacerdote y Sacerdotes diocesanos que quieren vivir nuestro carisma desde su vocación laical o ministerial.",
+    "imagen": "recursos/pastoral/LogoMJS.jpeg",
+    "fondo": "#ffffff"
+  },
+  {
+  "tipo": "videoFondo",
+  "video": "recursos/fondos/Fondo-olas.mp4",
+  "imagenAlternativa": "recursos/fondos/Fondo-olas-Miniatura.jpg"
+},{
+  "tipo": "piePagina",
+  "imagen": "recursos/logos/antorcha1-1.webp",
+  "titulo": "Colegio Motolinía",
+  "texto": "Dirección: Calle Motolinía, No. 201, Col. Cazones, Poza Rica de Hidalgo, Veracruz.<br>Teléfono: 782-822-5819",
+  "fondo": "#13294a",
+  "colorTexto": "#fff",
+  "fuente": "Montserrat, Arial, sans-serif",
+  "alt": "Logo Motolinía"
+}
+]

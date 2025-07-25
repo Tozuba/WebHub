@@ -1,0 +1,52 @@
+[
+  
+  {
+  "tipo": "videoArribaTitulo",
+  "video": "recursos/titulos/TitulosPaginasBachillerato.mp4",
+  "imagenAlternativa": "recursos/titulos/TitulosPaginasBachillerato-Miniatura.jpg",
+  "fondo": "rgba(19, 41, 74, 0.0)"
+},
+  {
+    "tipo": "imagenArriba",
+    "titulo": "Bienvenido a Bachillerato",
+    "texto": "¡Bienvenido al bachillerato donde tu futuro comienza hoy!, Ofrecemos un entorno escolarizado con grupos reducidos, docentes capacitados y un plan de estudios actualizado. Aquí, aprenderás con clases dinámicas y creativas, cultura, talleres, y asignaturas que te preparan para los retos del mundo real.",
+    "imagen": "recursos/bachillerato/BienvenidoBachillerato.jpeg",
+    "fondo": "#ffffff"
+  },
+  {
+    "tipo": "imagenTexto",
+    "titulo": "Perfil de ingreso",
+    "texto": "<ul><li>Promedio mínimo de 8.5</li><li>No tener asignaturas reprobadas</li><li>Presentar evaluación de conocimientos</li><li>Examen de ubicación de inglés</li><li>Evaluación psicométrica</li><li>Entrevista con la directora</li></ul>",
+    "imagen": "recursos/bachillerato/IngresoBachillerato.jpeg",
+    "fondo": "#ffffff"
+  },
+  {
+    "tipo": "imagenTextoDer",
+    "titulo": "Perfil de egreso",
+    "texto": "<ul><li>Participa cívica y éticamente en situaciones específicas</li><li>Comprende la ciencia y el desarrollo tecnológico</li><li>Reflexiona sobre las diferencias socioeconómicas</li><li>Comprende y expresa información en inglés</li><li>Expresa y desarrolla su pensamiento artístico</li><li>Se ubica mediante su conciencia histórica</li><li>Toma decisiones empleando el lenguaje</li><li>Aplica su sentido de justicia y legalidad</li><li>Compite mediante su habilidad motriz</li><li>Comunica información matemática</li></ul>",
+    "imagen": "recursos/bachillerato/EgresoBachillerato.jpeg",
+    "fondo": "#ffffff"
+  },
+  {
+    "tipo": "imagenTextoLista",
+    "titulo": "Documentación requerida",
+    "texto": "<ul><li>CURP original actualizado</li><li>Acta de nacimiento original</li><li>Certificado de secundaria original</li><li>Carta de buena conducta original</li><li>6 fotografías de tamaño infantil en papel mate</li><li>Formato de inscripción SICObA</li></ul>",
+    "imagen": "recursos/bachillerato/docu1.jpeg",
+    "fondo": "#ffffff"
+  },
+  {
+  "tipo": "videoFondo",
+  "video": "recursos/fondos/Fondo-olas.mp4",
+  "imagenAlternativa": "recursos/fondos/Fondo-olas-Miniatura.jpg"
+},{
+  "tipo": "piePagina",
+  "imagen": "recursos/logos/antorcha1-1.webp",
+  "titulo": "Colegio Motolinía",
+  "texto": "Dirección: Calle Motolinía, No. 201, Col. Cazones, Poza Rica de Hidalgo, Veracruz.<br>Teléfono: 782-822-5819",
+  "fondo": "#13294a",
+  "colorTexto": "#fff",
+  "fuente": "Montserrat, Arial, sans-serif",
+  "alt": "Logo Motolinía"
+}
+  
+]

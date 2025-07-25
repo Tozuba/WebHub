@@ -1,0 +1,272 @@
+[ 
+    
+  {
+    "fecha": "2025-07-03",
+    "eventos": [
+      { "titulo": "Primaria:Termina evaluación",
+        "detalle": "Primaria: Termina evaluación 3er trimestre",
+        "horario": "",
+        "tipo": "evento" 
+      }
+    ]
+  },
+  {
+    "fecha": "2025-07-04",
+    "eventos": [
+      { "titulo": "Eucaristia Clausura Bachillerato",
+        "detalle": "Eucaristia clausura de bachillerato",
+        "horario": "17:00",
+        "tipo": "misas" 
+      },
+      { "titulo": "Acto academico Bachillerato",
+        "detalle": "Acto academico de bachillerato",
+        "horario": "17:00",
+        "tipo": "evento" 
+      }
+    ]
+  },
+  {
+    "fecha": "2025-07-07",
+    "eventos": [
+      { "titulo": "Eucaristia Clausura",
+        "detalle": "Eucaristia clausura del ciclo escolar 3 niveles basicos",
+        "horario": "9:00",
+        "tipo": "misas" 
+      },
+      { "titulo": "Eucaristia Accion de Gracias",
+        "detalle": "Eucaristia acción de Gracias por el ciclo escolar 3 niveles basicos",
+        "horario": "",
+        "tipo": "misas" 
+      }
+
+    ]
+  },
+  {
+    "fecha": "2025-07-14",
+    "eventos": [
+      { "titulo": "Clausura todos los niveles basicos",
+        "detalle": "Clausura prescolar, primaria, secundaria",
+        "horario": "prescolar 9:00, primaria 12:00, secundaria 14:00",
+        "tipo": "evento" 
+      } 
+    ]
+  },
+    {
+    "fecha": "2025-07-15",
+    "eventos": [
+      { "titulo": "Encuentro con Jesús",
+        "detalle": "Encuentro con Jesús todo el personal",
+        "horario": "",
+        "tipo": "evento" 
+      } 
+    ]
+  },
+    {
+    "fecha": "2025-07-10",
+    "eventos": [
+      { "titulo": "curso de actualización Docentes y Directiva 6 hrs.",
+        "detalle": "Curso de actualización para docentes y directiva 6 hrs.",
+        "horario": "",
+        "tipo": "cursodocente" 
+      }
+    ]
+  },
+  {
+    "fecha": "2025-07-11",
+    "eventos": [
+      { "titulo": "curso de actualización Docentes y Directiva 6 hrs.",
+        "detalle": "Curso de actualización para docentes y directiva 6 hrs.",
+        "horario": "",
+        "tipo": "cursodocente" 
+      }
+    ]
+  },
+  {
+    "fecha": "2025-07-16",
+    "eventos": [
+      { "titulo": "curso de actualización Docentes y Directiva 6 hrs.",
+        "detalle": "Curso de actualización para docentes y directiva 6 hrs.",
+        "horario": "",
+        "tipo": "cursodocente" 
+      },{ "titulo": "Fin de clases Oficiales",
+        "detalle": "Fin de clases Oficiales",
+        "horario": "",
+        "tipo": "evento" 
+      }
+    ]
+  },
+
+
+
+
+
+
+
+  {
+    "fecha": "2025-06-02",
+    "eventos": [
+      { "titulo": "Preescolar honores",
+        "detalle": "Prescolar honores a la bandera maestros",
+        "horario": "Honores a la bandera Maestros",
+        "tipo": "evento" }
+          ]
+  },
+   {
+    "fecha": "2025-06-09",
+    "eventos": [
+      { "titulo": "Preescolar honores",
+        "detalle": "Prescolar honores a la bandera 1ro A",
+        "horario": "09:00",
+        "tipo": "evento" 
+      },
+      { "titulo": "secundaria",
+        "detalle": "Pentecostes",
+        "horario": "",
+        "tipo": "evento" 
+      }  
+    ]
+  },
+  {
+    "fecha": "2025-06-11",
+    "eventos": [
+      { "titulo": "Feria de matemáticas",
+        "detalle": "Prescolar Feria de matemáticas",
+        "horario": "",
+        "tipo": "evento" }
+          ]
+  },
+  {
+    "fecha": "2025-06-12",
+    "eventos": [
+      { "titulo": "Eucaristia de Jesús",
+        "detalle": "Eucaristia de Jesús, Sumo y Eterno Sacerdote",
+        "horario": "",
+        "tipo": "misas" },
+      { "titulo": "Esc. Deportiva",
+        "detalle": "Examen de Cambio de cinta Taekwondo",
+        "horario": "16:30",
+        "tipo": "evento" 
+      } 
+    ]
+  },
+  {
+    "fecha": "2025-06-13",
+    "eventos": [
+      { "titulo": "Loteria",
+        "detalle": "Loteria",
+        "horario": "",
+        "tipo": "evento" }
+          ]
+  },
+  {
+    "fecha": "2025-06-14",
+    "eventos": [
+      { "titulo": "Retiro 1ra Comunión",
+        "detalle": "Retiro Papás y Padrinos de Primera Comunión",
+        "horario": "",
+        "tipo": "evento" }
+          ]
+  },
+  {
+    "fecha": "2025-06-15",
+    "eventos": [
+      { "titulo": "Dia del Padre",
+        "detalle": "Celebracion de dia del padre",
+        "horario": "",
+        "tipo": "suspension" }
+    ]
+  },
+  {
+    "fecha": "2025-06-16",
+    "eventos": [
+      { "titulo": "Preescolar Honores 3ro",
+        "detalle": "Preescolar honores a la bandera 3ro A",
+        "horario": "09:00",
+        "tipo": "evento"
+      },
+      { "titulo": "Primaria Homenaje",
+        "detalle": "Primaria Homenaje a la Bandera Dia del Padre / Inicio de evaluación 3er trimestre",
+        "horario": "",
+        "tipo": "evento" 
+      } 
+    ]
+  },
+  {
+    "fecha": "2025-06-18",
+    "eventos": [
+      { "titulo": "Inglés: United Nations",
+        "detalle": "Inglés: United Nations Open House Primaria y Secundaria",
+        "horario": "",
+        "tipo": "evento" },
+      {
+        "titulo": "Confesiones 1ra Comunión",
+        "detalle": "Confesiones de Primera Comunión",
+        "horario": "09:00 hrs",
+        "tipo": "evento"
+      }
+    ]
+  },
+  {
+    "fecha": "2025-06-20",
+    "eventos": [
+      { "titulo": "Ensayo 1ra Comunión",
+        "detalle": "Ensayo de Primera Comunión",
+        "horario": "",
+        "tipo": "evento" }
+    ]
+  },
+  {
+    "fecha": "2025-06-19",
+    "eventos": [
+      { "titulo": "Sec. Corpus Christi",
+        "detalle": "Corpus Christi Secundaria",
+        "horario": "",
+        "tipo": "evento" }
+    ]
+  },
+  {
+    "fecha": "2025-06-21",
+    "eventos": [
+      { "titulo": "Eucaristia 1ra Comunión",
+        "detalle": "Eucaristia de Primera Comunión",
+        "horario": "",
+        "tipo": "misas" }
+    ]
+  },
+  {
+    "fecha": "2025-06-23",
+    "eventos": [
+      { "titulo": "Preescolar Honores 2do",
+        "detalle": "Preescolar Honores a la bandera 2do A",
+        "horario": "09:00",
+        "tipo": "evento" }
+    ]
+  },
+  {
+    "fecha": "2025-06-25",
+    "eventos": [
+      { "titulo": "Prim. Platica con J.N.",
+        "detalle": "Primaria: Platica con J.N. y el Psicólogo",
+        "horario": "",
+        "tipo": "evento" }
+    ]
+  },
+  {
+    "fecha": "2025-06-27",
+    "eventos": [
+      { "titulo": "Consejo Técnico",
+        "detalle": "Consejo Técnico Sesión Escolar",
+        "horario": "",
+        "tipo": "consejo" }
+    ]
+  },
+  {
+    "fecha": "2025-06-30",
+    "eventos": [
+      { "titulo": "Primaria Homenaje",
+        "detalle": "Primaria Homenaje a la Bandera  6to grado",
+        "horario": "",
+        "tipo": "evento" }
+    ]
+  }
+]

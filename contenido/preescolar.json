@@ -1,0 +1,52 @@
+[
+  
+  {
+  "tipo": "videoArribaTitulo",
+  "video": "recursos/titulos/Titulo-Preescolar.mp4",
+  "imagenAlternativa": "recursos/titulos/Titulo-Preescolar-Miniatura.jpg",
+  "fondo": "rgba(19, 41, 74, 0.0)"
+},
+  {
+    "tipo": "imagenArriba",
+    "titulo": "Bienvenido a Preescolar",
+    "texto": "En Preescolar se desarrollan habilidades comunicativas, de pensamiento lógico-matemático, socioemocionales y creativas, además de fomentar su autonomía, curiosidad y respeto por los demás.",
+    "imagen": "recursos/preescolar/bienvenido.jpeg",
+    "fondo": "#ffffff"
+  },
+  {
+    "tipo": "imagenTexto",
+    "titulo": "Perfil de ingreso",
+    "texto": "Desarrollo socioemocional básico: Capacidad para expresar emociones y sentimientos, aunque de manera limitada.\n\nInterés por explorar y aprender: Curiosidad natural y disposición para interactuar con el entorno.\n\nHabilidades motoras básicas: Capacidad para caminar, correr, saltar y manipular objetos con cierta destreza.\n\nLenguaje oral: Capacidad para comunicarse verbalmente, aunque sea con un vocabulario limitado.",
+    "imagen": "recursos/preescolar/ingreso.jpeg",
+    "fondo": "#ffffff"
+  },
+  {
+    "tipo": "imagenTextoDer",
+    "titulo": "Perfil de egreso",
+    "texto": "Desarrollo socioemocional avanzado: Capacidad para expresar emociones y sentimientos de manera más compleja y matizada.\n\nInterés por explorar y aprender: Curiosidad natural y disposición para interactuar con el entorno de manera más profunda.\n\nHabilidades motoras desarrolladas: Capacidad para realizar movimientos más complejos y coordinados.\n\nLenguaje oral: Capacidad para comunicarse verbalmente con un vocabulario más amplio y variado.",
+    "imagen": "recursos/preescolar/egreso.jpeg",
+    "fondo": "#ffffff"
+  },
+  {
+    "tipo": "imagenTextoLista",
+    "titulo": "Documentación requerida",
+    "texto": "<ul><li>Acta de nacimiento certificada (original y 2 copias)</li><li>CURP en formato actualizado (2 copias) Cartilla Nacional de Salud actualizada (2 copias)</li><li>Fotografías (4 fotos a color fondo claro, tamaño infantil)</li><li>Comprobante de domicilio (2 copias)</li><li>Acta de nacimiento de papá y de mamá (2 copias de c/u)</li><li>CURP de papá y de mamá (2 copias de c/u)</li><li>Identificación oficial: Credencial de Elector, pasaporte o cédula de grado de papá y de mamá (2 copias c/u)</li><li>Constancia Laboral del padre, madre o tutor</li>Los aspirantes de nuevo ingreso para 2° y 3°, deben entregar:<li> Reporte de Evaluación del grado o periodo de evaluación anterior (original y 2 copias)</li><li>Constancia de Buena Conducta (original y 2 copias)</li>En caso de traslado deben entregar adicional:<li>Constancia de inscripción (no mayor a 30 días)</li></ul>",
+    "imagen": "recursos/preescolar/docu1.jpeg",
+    "fondo": "#ffffff"
+  },
+  {
+  "tipo": "videoFondo",
+  "video": "recursos/fondos/Fondo-olas.mp4",
+  "imagenAlternativa": "recursos/fondos/Fondo-olas-Miniatura.jpg"
+},{
+  "tipo": "piePagina",
+  "imagen": "recursos/logos/antorcha1-1.webp",
+  "titulo": "Colegio Motolinía",
+  "texto": "Dirección: Calle Motolinía, No. 201, Col. Cazones, Poza Rica de Hidalgo, Veracruz.<br>Teléfono: 782-822-5819",
+  "fondo": "#13294a",
+  "colorTexto": "#fff",
+  "fuente": "Montserrat, Arial, sans-serif",
+  "alt": "Logo Motolinía"
+}
+  
+]
