@@ -36,11 +36,15 @@
 body {
   font-family: var(--font-body);
   background: linear-gradient(135deg, var(--dark-bg) 0%, var(--burgundy-dark) 100%);
-  min-height: 100vh;
+  min-height: 100.1vh;
+  /* Enable slight scroll to hide browser bar */
   display: flex;
   justify-content: center;
   align-items: center;
-  overflow: hidden;
+  overflow-y: auto;
+  /* Allow vertical scrolling */
+  overflow-x: hidden;
+  /* Prevent horizontal scrolling */
   color: var(--cream);
   padding: var(--spacing-md);
 }
