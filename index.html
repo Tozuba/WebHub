@@ -1,43 +1,75 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página Principal</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link href="css-js/estilos-comun.css" rel="stylesheet">
-    <link href="css-js/estilos-secciones.css" rel="stylesheet">
+    <meta name="description" content="Invitación Navideña - Una experiencia interactiva de libro">
+    <title>Invitación Navideña - Ballet</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<body data-pagina="index.html">
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="index.html"><img style="width: 32px; height: 32px;" src="recursos/logos/antorcha1-1.webp" alt="">  Motolinia</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ms-auto">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Inicio</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Servicios</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Contacto</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Acerca de</a>
-            </li>
-          </ul>
+
+<body>
+    <!-- Christmas Snowflakes -->
+    <div class="snowflakes" aria-hidden="true">
+        <div class="snowflake">❅</div>
+        <div class="snowflake">❅</div>
+        <div class="snowflake">❆</div>
+        <div class="snowflake">❅</div>
+        <div class="snowflake">❆</div>
+        <div class="snowflake">❅</div>
+        <div class="snowflake">❆</div>
+        <div class="snowflake">❅</div>
+        <div class="snowflake">❆</div>
+        <div class="snowflake">❅</div>
+        <div class="snowflake">❆</div>
+        <div class="snowflake">❅</div>
+        <div class="snowflake">❆</div>
+        <div class="snowflake">❅</div>
+        <div class="snowflake">❆</div>
+        <div class="snowflake">❅</div>
+        <div class="snowflake">❆</div>
+        <div class="snowflake">❅</div>
+        <div class="snowflake">❆</div>
+        <div class="snowflake">❅</div>
+    </div>
+    <!-- Page indicators (generated dynamically) -->
+    <div class="page-indicator" id="pageIndicator"></div>
+
+    <div class="container">
+        <div class="book" id="book">
+            <!-- Pages generated dynamically from script.js -->
+            <div class="page-stack"></div>
+
+            <!-- Invisible navigation areas -->
+            <div class="invisible-nav-areas">
+                <button class="invisible-nav-left" id="invisibleNavLeft" aria-label="Página anterior"></button>
+                <button class="invisible-nav-right" id="invisibleNavRight" aria-label="Página siguiente"></button>
+            </div>
         </div>
-      </div>
-    </nav>
-    <div id="secciones-dinamicas"></div>
-    <footer>
-        &copy; 2025 Motolinia. Todos los derechos reservados.
-    </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="css-js/dinamic-gen.js"></script>
+    </div>
+
+    <!-- Navigation controls -->
+    <div class="nav-controls">
+        <button class="nav-btn" id="prevBtn">
+            <span>← Anterior</span>
+        </button>
+        <button class="nav-btn" id="nextBtn">
+            <span>Siguiente →</span>
+        </button>
+    </div>
+
+    <!-- Background Music -->
+    <audio id="backgroundMusic" loop>
+        <source src="musica/Overture_mp3.mp3" type="audio/mpeg">
+    </audio>
+
+    <!-- Music Control Button -->
+    <button id="musicControl" class="music-control" aria-label="Control de música">
+        <span class="music-icon">🔊</span>
+    </button>
+
+    <script src="script.js"></script>
 </body>
+
 </html>
