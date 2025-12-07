@@ -65,6 +65,69 @@ function init() {
     updateNavigation();
     preloadImages();
     setupMusicControl();
+    setupViewToggle();
+}
+
+// ============================================
+// VIEW TOGGLE & CASCADE MODE
+// ============================================
+
+function setupViewToggle() {
+    const viewToggle = document.getElementById('viewToggle');
+    const cascadeContainer = document.getElementById('cascadeContainer');
+    const viewIcon = viewToggle.querySelector('.view-icon');
+    let isCascadeMode = false;
+
+    viewToggle.addEventListener('click', () => {
+        isCascadeMode = !isCascadeMode;
+        document.body.classList.toggle('cascade-mode', isCascadeMode);
+
+        if (isCascadeMode) {
+            viewIcon.textContent = '📖'; // Show book icon to go back
+            cascadeContainer.classList.remove('hidden');
+            // Small delay to allow display:block to apply before opacity transition
+            setTimeout(() => {
+                cascadeContainer.classList.add('active');
+            }, 10);
+            populateCascadeView();
+        } else {
+            viewIcon.textContent = '📱'; // Show mobile/list icon to go to cascade
+            cascadeContainer.classList.remove('active');
+            setTimeout(() => {
+                cascadeContainer.classList.add('hidden');
+            }, 500); // Wait for transition
+        }
+    });
+}
+
+function populateCascadeView() {
+    const container = document.getElementById('cascadeContainer');
+    if (container.children.length > 0) return; // Only populate once
+
+    bookPages.forEach((pageData, index) => {
+        // Front Content
+        if (pageData.front) {
+            const wrapper = document.createElement('div');
+            wrapper.className = 'cascade-item';
+
+            // Adjust animation delay for sequential effect
+            wrapper.style.animationDelay = `${index * 0.1}s`;
+
+            wrapper.innerHTML = createPageContent(pageData.front, index, 'front');
+            container.appendChild(wrapper);
+        }
+
+        // Back Content
+        if (pageData.back) {
+            const wrapper = document.createElement('div');
+            wrapper.className = 'cascade-item';
+
+            wrapper.style.animationDelay = `${(index * 0.1) + 0.05}s`;
+
+            wrapper.innerHTML = createPageContent(pageData.back, index, 'back');
+            container.appendChild(wrapper);
+        }
+    });
 }
 
 // ============================================

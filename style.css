@@ -400,6 +400,129 @@ body {
   position: relative;
 }
 
+/* View Toggle Button */
+.view-toggle {
+  position: fixed;
+  top: var(--spacing-md);
+  left: var(--spacing-md);
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, var(--burgundy) 0%, var(--burgundy-light) 100%);
+  border: 2px solid var(--gold);
+  color: var(--gold);
+  font-size: 1.5rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10001;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px var(--shadow-medium);
+}
+
+.view-toggle:hover {
+  background: linear-gradient(135deg, var(--gold) 0%, var(--gold-light) 100%);
+  color: var(--burgundy-dark);
+  transform: scale(1.1);
+  box-shadow: 0 6px 20px var(--shadow-dark);
+}
+
+/* Cascade View */
+.cascade-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow-y: auto;
+  padding: 80px var(--spacing-md) var(--spacing-md);
+  /* Top padding for buttons */
+  z-index: 900;
+  /* Below controls */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--spacing-md);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.5s ease;
+  background: linear-gradient(135deg, var(--dark-bg) 0%, var(--burgundy-dark) 100%);
+  /* Maintain bg */
+  scrollbar-width: thin;
+  scrollbar-color: var(--gold) transparent;
+}
+
+.cascade-container.active {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.cascade-container.hidden {
+  display: none;
+}
+
+.cascade-item {
+  width: 100%;
+  max-width: 800px;
+  /* Max readable width */
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+  animation: slideInUp 0.5s ease-out forwards;
+  opacity: 0;
+  transform: translateY(20px);
+}
+
+.cascade-item img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Cascade Item content overrides */
+.cascade-item .page-content {
+  height: auto;
+  /* Allow content to dictate height */
+  min-height: auto;
+  display: block;
+  /* Remove flex centering */
+}
+
+.cascade-item .page-image {
+  height: auto;
+  /* Override 100% height */
+  width: 100%;
+  object-fit: cover;
+  /* Fill the width */
+  display: block;
+  border-radius: 4px;
+  /* Slight roundness */
+}
+
+.cascade-item .christmas-message {
+  border-radius: 8px;
+  /* Nicer look in list */
+  padding: 40px 20px;
+}
+
+@keyframes slideInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Visibility classes */
+body.cascade-mode .container,
+body.cascade-mode .nav-controls,
+body.cascade-mode .page-indicator {
+  display: none !important;
+}
+
+body.cascade-mode .cascade-container {
+  display: flex;
+  /* Override hidden */
+}
+
 /* Responsive Design */
 
 
